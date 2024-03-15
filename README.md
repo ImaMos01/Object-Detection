@@ -1,26 +1,39 @@
 ## Setup
 
-### FastAPI
+### Backend
+#### FastAPI
 
-- `virtualenv yoloProy`
+- `cd backend`
+  
+- `virtualenv myenv`
 
-- `source yoloProy/bin/activate`
+- `source myenv/bin/activate`
 
-- `python -m pip install -r requirements.txt`
+- `python3 -m pip install -r requirements.txt`
 
-#### run
+##### Run
 
 - `cd objectDetectionAPI`
 
 - `uvicorn main:app --reload`
 
-### Web Page (React)
+### Frontend 
+#### React and Run
 
 - `cd frontend`
 
+- `npm install`
+  
 - `npm run dev`
 
 ## Images
 
 - Main web page.
+  <p align="center">
+    <img src='./images/mainPage.png' width='400px' />
+  </p>
+
 - After sending an image.
+  <p align="center">
+    <img src='./images/pageDetect.png' width='400px' />
+  </p>
