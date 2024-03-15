@@ -1,0 +1,3 @@
+myenv/
+objectDetectionAPI/__pycache__/
+objectDetectionAPI/yolov8n.pt
