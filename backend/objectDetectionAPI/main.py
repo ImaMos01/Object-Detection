@@ -33,7 +33,6 @@ async def read_root():
 
 #predict images 
 @app.post("/predict/")
-#@app.api_route('/predict/', methods=['POST', 'GET'])
 async def detect_objects(file: bytes = File(...)):
   """
     Object detection and return the image with boxes.
