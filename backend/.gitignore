@@ -1,3 +1,4 @@
 myenv/
 objectDetectionAPI/__pycache__/
+objectDetectionAPI/.pytest_cache/
 objectDetectionAPI/yolov8n.pt
