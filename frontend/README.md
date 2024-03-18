@@ -5,6 +5,12 @@
 
 ## Setup
 
-#### run
+### Version
+
+- `node-18.13.0`
+- `npm-8.19.3`
+
+### Run
+
 - `npm install`
 - `npm run dev`
