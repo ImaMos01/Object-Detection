@@ -1,3 +1,5 @@
+Simple responsive web page to visualize the object detection provided by the YOLOv8 model using FastAPI and React.js.
+
 ## Setup
 
 ### Backend
