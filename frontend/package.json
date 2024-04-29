@@ -8,13 +8,15 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "start": "serve dist -s -n -L -p $PORT"
   },
   "dependencies": {
     "jsdom": "^24.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
+    "serve": "^14.2.3",
     "vitest": "^1.4.0"
   },
   "devDependencies": {

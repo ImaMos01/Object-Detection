@@ -56,7 +56,7 @@ function App() {
     //post fetch
     setMsg({ text: "Uploading ...", color: "white" });
     try {
-      await fetch("http://127.0.0.1:8000/predict/", {
+      await fetch(`${import.meta.env.VITE_API}/predict/`, {
         method: "POST",
         body: fd,
       })
